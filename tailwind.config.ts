@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        status: {
+          draft: "hsl(var(--status-draft))",
+          "draft-bg": "hsl(var(--status-draft-bg))",
+          submitted: "hsl(var(--status-submitted))",
+          "submitted-bg": "hsl(var(--status-submitted-bg))",
+          published: "hsl(var(--status-published))",
+          "published-bg": "hsl(var(--status-published-bg))",
+        },
+        skeleton: {
+          DEFAULT: "hsl(var(--skeleton))",
+          shimmer: "hsl(var(--skeleton-shimmer))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
